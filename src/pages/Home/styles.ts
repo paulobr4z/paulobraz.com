@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   background: #155799;
   background: -webkit-linear-gradient(to right, #155799, #0082c8, #0082c8, #155799);
@@ -14,12 +14,14 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
+  flex: 1;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   flex-direction: column;
   max-width: 560px; 
   padding: 20px;
+  margin-bottom: 40px;
 
   h4 {
     margin-top: 20px;
