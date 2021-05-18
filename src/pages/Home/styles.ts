@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: absolute;
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  height: 100vh;
   color: white;
   background: #155799;
   background: -webkit-linear-gradient(to right, #155799, #0082c8, #0082c8, #155799);
