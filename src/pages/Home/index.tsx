@@ -25,11 +25,13 @@ export function Home() {
 
         <h4>
           Paulo Braz
-        </h4>      
+        </h4>
 
         <h5>
+          Desenvolvedor Frontend <br />
+          HTML | CSS | Javascript | React | React Native <br />
           Tucuruí-Pa
-        </h5>        
+        </h5>     
 
         <a href="https://github.com/paulobr4z" target="_blank" rel="noreferrer">
           <AiFillGithub style={{ fontSize:40 }} />

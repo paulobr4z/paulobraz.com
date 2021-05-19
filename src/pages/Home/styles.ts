@@ -29,7 +29,9 @@ export const Wrapper = styled.div`
   }
 
   h5 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
   }
 
   a {
