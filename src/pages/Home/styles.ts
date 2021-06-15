@@ -37,11 +37,12 @@ export const Wrapper = styled.div`
   a {
     display: flex;
     align-items: center;
+    height: 60px;
     width: 100%;
     border-radius: 50px;
     border: 1px solid white;
     margin: 16px 0px;
-    padding: 8px 8px;
+    padding: 14px;
     color: white;
     text-decoration: none;
     font-weight: bold;
